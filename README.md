@@ -14,3 +14,6 @@
 <img src="img/1.png" width="50%" height="50%">
 <br>
 <img src="img/2.png" width="50%" height="60%">
+
+## Installing Dependencies:
+##### Run command "pip install -r requirements.txt" in your shell.
