@@ -19,6 +19,19 @@
             <form action="starting" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <div class="form-group">
+                    <h3>Directly Send</h3>
+                    <select name="direct" class="form-control">
+        <option value="YES">YES</option>
+        <option value="NO">NO</option>
+    </select>
+                    <div class="form-group">
+                        <h3>Attach Video</h3>
+                        <select name="video" class="form-control">
+<option value="YES">YES</option>
+<option value="NO">NO</option>
+</select>
+
+                    </div>
                 </div>
                 <div class="form-group">
                     <h3>Enter Subject For The Mail</h3>

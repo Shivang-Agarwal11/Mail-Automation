@@ -23,6 +23,7 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('starting',views.starting,name='starting'),
     path('startingmails',views.startingmails,name='startingmails'),
+    path('continued',views.continued,name='continued')
 ]
 
 if settings.DEBUG:
